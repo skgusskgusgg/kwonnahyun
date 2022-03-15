@@ -1,0 +1,219 @@
+@charset "utf-8";
+body{
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/* header */
+header{
+    width:90vw ;
+    margin: 0 auto;
+    padding: 0;
+}
+header .header{
+    background-color: #000;
+}
+header .fix{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    width: 90vw;
+    background-color: #000;
+    margin: 0;
+    border-bottom: 1px solid #fff;
+}
+header .fix li a{
+text-decoration: none;
+color: #fff;
+display: block;
+padding: 10px 0;
+position: relative;
+}
+header .fix li:nth-child(1){
+    margin-left: 23px;
+}
+header .fix li:nth-child(2) a{
+    margin-right: 23px;
+    width: 20px;
+    height: 20px;
+}
+header .fix li:nth-child(2) a img{
+    max-width: 100%;
+}
+.header .fix li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: all .5s;
+}
+header .fix li a:hover::after{width: 100%;}
+header .h{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 245px;
+    margin: 0;
+    padding: 0;
+}
+header .h h1{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-left: 45px;
+}
+header .h .title{
+    list-style: none;
+    color: #fff;
+    margin-top:100px;
+    margin-right: 60px;
+    width: 200px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+header .h .title li{
+    display: flex;
+    margin:3px 0;
+    width: 300px;
+}
+header .h .title li span{
+    font-weight: 300;
+    margin: 0;
+}
+header .h .title li span:last-child{font-weight: 700;}
+header .h .title li .span1-1{margin-left: 0;}
+header .h .title li .span1-2{margin-right: 40px; margin-left: 43px;}
+header .h .title li .span2-1{margin-right: 61px;}
+header .h .title li .span2-2{margin-left: 10px; margin-right: 7px;}
+header .h .title li .span3-1{margin-right: 50px;}
+header .h .title li .span3-2{margin-right: 10px; margin-left: 22px;}
+header .h_backimg{
+    box-sizing: border-box;
+    /* border: 2px solid #000; */
+    width: 90vw;
+    background-color: none;
+    height: 562px;
+    margin: 0;
+}
+header .h_backimg .h_mainimg{
+    width: 703px;
+    height: 100%;
+    line-height: 337px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header .h_backimg .h_mainimg img{
+    max-width: 100%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    vertical-align: top;
+}
+/* main */
+main section{
+    display: flex;
+    justify-content: center;
+    margin: 103px 0;
+}
+main section h2{
+    font-size: 24px;
+    margin: 0;
+    color: #999999;
+}
+main section div p{
+    text-align: justify;
+    margin: 0;
+    margin-bottom: 20px;
+}
+main section div p:first-child{
+    margin-bottom: 35px;
+}
+main section div .font{
+    font-weight: bold;
+    font-size: 20px;
+}
+.section1 h2{
+    margin-right: 210px;
+    margin-left: -20px;
+}
+main .section2 h2{
+    margin-right: 205px;
+    margin-left: 80px;
+}
+main .section3 h2{
+    margin-right: 195px;
+    margin-left: -75px;
+}
+main .section3 div ul{
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    line-height: 1.4;
+    padding: 0;
+}
+main .section3 div li{
+    margin: 20px 0;
+}
+main .section3 div li span{
+    font-weight: bold;
+    
+}
+main .section4 h2{
+    margin-right: 210px;
+}
+main .section4 div{
+    line-height: 1.6;
+}
+footer{
+    font-weight: 700;
+    width: 100%;
+    background-color: #000;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 67px 0;
+}
+footer .footer{
+    margin: 0;
+    background-color: #fff;
+    width: 150px;
+    padding: 10px 0;
+    text-align: left;
+    height: 34px;
+    line-height: 32px;
+    border-radius: 30px;
+    position: relative;
+    text-indent: 30px;
+}
+footer .footer:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+footer .footer:hover a{
+    color: #fff;
+    text-align: center;
+    text-indent: 0;
+}
+footer .footer:hover .footer_icon{
+    display: none;
+}
+footer .footer a{ 
+    text-decoration: none;
+    color: #000;
+    display: block;
+    width: 100%;
+}
+footer .footer a .footer_icon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 21px;
+    right: 55px;
+
+}
+footer .footer a img{
+   
+}

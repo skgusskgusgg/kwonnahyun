@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="kwonnahyun_Portfolio">
+    <meta property="og:title" content="PORTFOLIO">
+    <meta property="og:url" content="https://kwonnahyun.netlify.app">
+    <meta property="og:description" content="kwonnahyun_Portfolio">
+    <meta property="og:iamge" content="https://kwonnahyun.netlify.app/img1.png">
+    <title>revation</title>
+    <link rel="apple-touch-icon" sizes="152x152" href="../common/favicon2/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../common/favicon2/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../common/favicon2/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../common/favicon2/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../common/favicon2/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../common/favicon2/favicon-16x16.png">
+    <link rel="manifest" href="../common/favicon2/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../common/favicon2/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../common/normalize.css">
+    <link rel="stylesheet" href="subpagerevation.css">
+
+    <script defer src="revation.js"></script>
+    <style>
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <ul class="fix">
+                <li><a href="../index.html">KWONNAHYUN</a></li>
+                <li><a href="../index.html#page-3"><img src="images/work.png" alt=""></a></li>
+            </ul>
+            <div class="h">
+                <h1>REVATION</h1>
+                <ul class="title">
+                    <li><span class="span1-1">Category</span> <span class="span1-2">web</span></li>
+                    <li><span class="span2-1">Date</span><span class="span2-2">2022/2/28-3/14</span></li>
+                    <li><span class="span3-1">Role</span> <span class="span3-2">개인작업100% </span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="h_backimg">
+            <div class="h_mainimg"><img src="images/subrevation.jpeg" alt="revation"></div>
+        </div>
+    </header>
+    <main>
+        <section class="section1">
+            <h2>ABOUT</h2>
+            <div>
+                <p class="font">다양한 움직임을 이용한 웹사이트 제작</p>
+                <p>
+                    기존의 사이트가 가지고있는 가치관을 반영하며<br>
+                    스크립트를 이용한 동적인 사이트 제작
+                </p>
+
+            </div>
+        </section>
+        <section class="video">
+            <img src="images/subrevationmain.png" alt="">
+            <!-- <video src="images/revation.mp4" muted loop></video> -->
+        </section>
+        <section class="section2">
+            <h2>DESIGN</h2>
+            <div>
+                <p class="font">#깨끗한 #신뢰할수있는 #친환경적인</p>
+                <p>사회의 환경문제를 생각하는 브랜드의 가치관을 따라<br>
+                    친환경적인 디자인</p>
+                <p class="color">color <img src="images/revationcolor.png" alt=""></p>
+                <p class="font2">font <img src="images/revationfont.png" alt=""></p>
+            </div>
+        </section>
+        <section class="section3">
+            <h2>PUBLISING</h2>
+            <div>
+                <p class="font">#sementicmarkup #웹표준<br>#javascript #responsiveWeb #mediaQuery #JSON </p>
+                <p>PC : 1920px<br> 크롬 브라우저 최적화
+                </p>
+                <ul>
+                    <li>
+                        <span>1) Vegas.js</span><br>
+                        플러그인 소스인 js / css파일 연결<br>
+                        $(class).vegas({slide:[{src:파일},{src:파일}])
+                    </li>
+                    <li>
+                        <span>2) Javascript를 이용한 mousemove 이벤트</span><br>
+                        마우스의 움직임, 즉 좌표값을 얻어내는 e.pageX, e.pageY를 추적,<br>
+                        이미지의 좌표값을 정확히 입력후 원하는 이벤트 발생
+                    </li>
+                    <li>
+                        <span>3) Delay 없이 서서히 움직이는 가로 롤링 이미지</span><br>
+                        이미지 정렬한 뒤 class 속성값을 넣어줌<br>
+                        이미지 갯수를 카운터해서 last변수에 저장<br>
+                        이미지 갯수를 확인 후 테두리 밖으로 벗어나는 갯수면 옆으로 이동<br>
+                        (매끄러운 전개를 위해 1px씩 왼쪽으로 이동시킴)<br>
+                        제일 앞의 이미지의 left 값이 이미지의 width 값보다 작으면 제일 뒤로 보내주는 함수 작성
+
+                    </li>
+                    <li>
+                        <span>4) Page scroll</span><br>
+                        css에 화면에 표출되기 전/후 작성(애니메이션)<br>
+                        사용자의 모니터 화면높이 + 스크롤이 움직인 높이 확인<br>
+                        애니메이션 효과를 넣을 DOM 객체 배열<br>
+                        객체 위치와 높이 비교: 화면에 표출되는 높이 인지 체크<br>
+                        animatable 클래스를 지우고 클래스 animated 추가
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section4">
+            <h2>REVIEW</h2>
+            <div>
+                <p>
+                    자바스크립트를 많이 사용 해 보지않았기때문에 익숙치 않았지만,<br>
+                    플러그인이나 직접 적용을 해보면서 자바스크립트가 사이트를 구축하는데 굉장히 편리했다.
+                </p>
+                <p>사이트를 제작하면서 스크립트의 개념을 많이 알아가는 시간이었고<br>
+                    더 많은 공부가 필요하다는것을 느꼈다.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer"><a href="../revation/index.html" target="_blank">view site
+                <div class="footer_icon">
+                    <img src="images/view.png" alt="footer">
+                </div>
+            </a></div>
+    </footer>
+</body>
+
+</html>
